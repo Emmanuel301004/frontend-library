@@ -75,22 +75,42 @@
     transform: rotate(90deg);
     transition: all .5s;
     text-transform: uppercase;
-    color: #8d8688;
+    color: #101010;
     letter-spacing: .1em;
+    font-weight: 500;
   }
   
   .card p:hover span {
     transform: rotate(0);
   }
   #html{
-    background-image: url(img/html.png);
-    background-repeat: no-repeat; 
-    background-size: contain;
+    background-color: rgb(156, 58, 23);
+  
   }
   #css{
-    background-image: url(img/css.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-clip: circle;
-
+background-color: rgb(23, 23, 103);
   }
+  #js{
+    background-color: rgb(131, 131, 13);
+  }
+  #git{
+    background-color: #dbdbdb;
+  }
+  #NETOWRKING{
+    background-color: skyblue;
+  }
+  #RESUME{
+    background-color: green;
+  }
+.tools{
+background-color: burlywood !important;
+}
+.cheetsheet{
+background-color: blueviolet !important;
+}
+#webhost{
+background-color: crimson;
+}
+.practice{
+background-color: goldenrod !important;
+}
